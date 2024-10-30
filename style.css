@@ -56,7 +56,9 @@ header {
     display: flex;
     justify-content: right;
 }
-
+.banner-part-2 img{
+    width: 70%; height: 90%
+}
 .banner-social-media {
     display: flex;
     gap: 20px;
@@ -120,7 +122,9 @@ header {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
+.form input,.form textarea{
+    background: white;
+}
 #contact-name {
     padding: 10px;
     margin-top: 5px;
