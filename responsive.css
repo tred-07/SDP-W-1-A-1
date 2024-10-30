@@ -1,0 +1,11 @@
+@media screen and (max-width:576px) {
+    .banner{
+        flex-direction: column;
+    }
+    .portfolio-containers{
+        flex-direction: column;
+    }
+    .skills-containers{
+        flex-direction: column;
+    }
+}
