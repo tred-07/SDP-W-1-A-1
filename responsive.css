@@ -19,6 +19,7 @@
     .banner-social-media{
         margin: auto;
         flex-wrap: wrap;
+        justify-content: center;
     }
     .banner-part-2{
         width: 90%;
