@@ -30,7 +30,14 @@
         margin: auto;
     }
     .portfolio-containers{
+        width: 100%;
         flex-direction: column;
+    }
+    .portfolio-container{
+        width: 100%;
+    }
+    .portfolio-technologies{
+        flex-wrap: wrap;
     }
     .skills-containers{
         flex-direction: column;
