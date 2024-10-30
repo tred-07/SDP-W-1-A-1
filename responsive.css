@@ -35,6 +35,9 @@
     .portfolio-containers{
         width: 100%;
         flex-direction: column;
+        padding: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
     .portfolio-container{
         width: 100%;
@@ -42,6 +45,7 @@
     .portfolio-technologies{
         flex-wrap: wrap;
     }
+
     .skills-containers{
         flex-direction: column;
         width: 100%;
