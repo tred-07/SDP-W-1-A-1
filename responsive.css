@@ -32,5 +32,17 @@
     }
     .skills-containers{
         flex-direction: column;
+        width: 100%;
+    }
+    .skills-containers{
+        width: 100%;
+    }
+    .skill-container h1,p{
+        text-align: center;
+    }
+    .skill-topic{
+        flex-wrap: wrap;
+        margin: auto;
+        justify-content: center;
     }
 }

@@ -105,7 +105,10 @@ header {
 .skills-container {
     width: 50%;
 }
-
+.skill-topic{
+    display: flex;
+     gap: 5px;
+}
 .form {
     display: flex;
     flex-direction: column;
