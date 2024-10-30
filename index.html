@@ -86,21 +86,21 @@
         border-radius: 5px;
         font-weight: bold;
       }
-      .skills{
+      .skills {
         padding-top: 50px;
         padding-bottom: 75px;
       }
-      .skills-containers{
+      .skills-containers {
         width: 80%;
         display: flex;
         margin: auto;
         padding-top: 50px;
         align-items: center;
       }
-      .skills-container{
+      .skills-container {
         width: 50%;
       }
-      .form{
+      .form {
         display: flex;
         flex-direction: column;
         width: 25%;
@@ -108,24 +108,31 @@
         border: 1px solid #0dcaf0;
         padding-left: 50px;
         padding-right: 50px;
-        padding-top:20px;
+        padding-top: 20px;
         padding-bottom: 20px;
       }
-      #contact-name{
+      #contact-name {
         padding: 10px;
-        margin-top:5px;
+        margin-top: 5px;
         margin-bottom: 5px;
         text-align: center;
       }
-      #contact-email{
+      #contact-email {
         margin-top: 5px;
         margin-bottom: 5px;
         text-align: center;
         padding: 10px;
       }
-      #contact-message{
-          text-align: center;
-          margin-bottom: 10px;
+      #contact-message {
+        text-align: center;
+        margin-bottom: 10px;
+      }
+      .footer-social-media{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
       }
     </style>
   </head>
@@ -395,11 +402,15 @@
       <section id="skills">
         <div class="skills-containers">
           <div class="skill-container">
-            <h1 style="padding-bottom: 10px;padding-top: 10px;font-weight: bold;">Expertise</h1>
+            <h1
+              style="padding-bottom: 10px; padding-top: 10px; font-weight: bold"
+            >
+              Expertise
+            </h1>
             <div
               class="skill-topic"
               id="expertise"
-              style="display: flex; gap: 5px;"
+              style="display: flex; gap: 5px"
             >
               <button class="portfolio-technologies-btn">React.js</button
               ><button class="portfolio-technologies-btn">JavaScript</button
@@ -410,7 +421,11 @@
               ><button class="portfolio-technologies-btn">MongoDB</button
               ><button class="portfolio-technologies-btn">Bootstrap</button>
             </div>
-            <h1 style="padding-bottom: 10px;padding-top: 10px;font-weight: bold;">Comfortable</h1>
+            <h1
+              style="padding-bottom: 10px; padding-top: 10px; font-weight: bold"
+            >
+              Comfortable
+            </h1>
             <div
               class="skill-topic"
               id="comfortable"
@@ -424,15 +439,27 @@
               ><button class="portfolio-technologies-btn">TypeScript</button
               ><button class="portfolio-technologies-btn">Next.js</button>
             </div>
-            <h1 style="padding-bottom: 10px;padding-top: 10px;font-weight: bold;">Familliar</h1>
-            <div class="skill-topic" id="familliar" style="display: flex;gap: 5px;">
+            <h1
+              style="padding-bottom: 10px; padding-top: 10px; font-weight: bold"
+            >
+              Familliar
+            </h1>
+            <div
+              class="skill-topic"
+              id="familliar"
+              style="display: flex; gap: 5px"
+            >
               <button class="portfolio-technologies-btn">C++</button
               ><button class="portfolio-technologies-btn">Python</button
               ><button class="portfolio-technologies-btn">Django</button
               ><button class="portfolio-technologies-btn">Java</button>
             </div>
-            <h1 style="padding-bottom: 10px;padding-top: 10px;font-weight: bold;">Tools</h1>
-            <div class="skill-topic" id="tools" style="display: flex;gap: 5px;">
+            <h1
+              style="padding-bottom: 10px; padding-top: 10px; font-weight: bold"
+            >
+              Tools
+            </h1>
+            <div class="skill-topic" id="tools" style="display: flex; gap: 5px">
               <button class="portfolio-technologies-btn">VS code</button
               ><button class="portfolio-technologies-btn">Jira</button
               ><button class="portfolio-technologies-btn">Trello</button
@@ -452,19 +479,57 @@
         </div>
       </section>
       <section class="contact">
-        <h1 style="text-align: center;padding-top: 250px;padding-bottom: 25px;">Contact with me</h1>
+        <h1
+          style="text-align: center; padding-top: 250px; padding-bottom: 25px"
+        >
+          Contact with me
+        </h1>
         <div class="form">
-          <input type="text" name="" id="contact-name" placeholder="Please type your name">
-          <input type="email" name="" id="contact-email" placeholder="Please type your email">
-          <textarea name="" id="contact-message" cols="30" rows="10" placeholder="Message"></textarea>
+          <input
+            type="text"
+            name=""
+            id="contact-name"
+            placeholder="Please type your name"
+          />
+          <input
+            type="email"
+            name=""
+            id="contact-email"
+            placeholder="Please type your email"
+          />
+          <textarea
+            name=""
+            id="contact-message"
+            cols="30"
+            rows="10"
+            placeholder="Message"
+          ></textarea>
           <button class="portfolio-technologies-btn" id="send-btn">Send</button>
         </div>
       </section>
     </main>
-    <footer style="margin-top: 50px;margin-bottom: 50px;">
-      <hr style="color: aliceblue;">
-      <p style="text-align: center;">Copyright &copy; 2021</p>
-      <p style="text-align: center;">kunming,yunnan,china</p>
+    <footer style="margin-top: 50px; margin-bottom: 50px">
+      <hr style="color: aliceblue" />
+      <p style="text-align: center">Copyright &copy; 2021</p>
+      <p style="text-align: center">kunming,yunnan,china</p>
+      <div class="footer-social-media">
+        <a href=""
+          ><i
+            class="fa-brands fa-square-github"
+            style="font-size: 55px; color: #0dcaf0"
+          ></i></a
+        ><a href=""
+          ><i
+            class="fa-brands fa-linkedin"
+            style="font-size: 55px; color: #0dcaf0"
+          ></i></a
+        ><a href=""
+          ><i
+            class="fa-brands fa-youtube"
+            style="font-size: 55px; color: #0dcaf0"
+          ></i
+        ></a>
+      </div>
     </footer>
 
     <script
