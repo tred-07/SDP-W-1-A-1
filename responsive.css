@@ -1,6 +1,31 @@
 @media screen and (max-width:576px) {
+    .nav-bar{
+        width: 100%;
+    }
     .banner{
+        width: 100%;
         flex-direction: column;
+    }
+    .banner-part-1{
+        width: 90%;
+        margin: auto;
+    }
+    .banner-skills{
+        text-align: center;
+    }
+    .banner-des{
+        text-align: center;
+    }
+    .banner-social-media{
+        margin: auto;
+    }
+    .banner-part-2{
+        width: 90%;
+    }
+    .banner-part-2 img{
+        width: 100%;
+        padding-top: 35px;
+        margin: auto;
     }
     .portfolio-containers{
         flex-direction: column;
