@@ -18,6 +18,7 @@
     }
     .banner-social-media{
         margin: auto;
+        flex-wrap: wrap;
     }
     .banner-part-2{
         width: 90%;
@@ -36,6 +37,7 @@
     }
     .skills-containers{
         width: 100%;
+        margin: auto;
     }
     .skill-container h1,p{
         text-align: center;
@@ -44,5 +46,6 @@
         flex-wrap: wrap;
         margin: auto;
         justify-content: center;
+        margin: auto;
     }
 }
