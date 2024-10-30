@@ -70,7 +70,9 @@ header {
     display: flex;
     width: 80%;
     margin: auto;
-    padding-top: 150px;
+    padding:10px;
+    border: 1px solid #0dcaf0;
+    margin-top: 50px;
 }
 
 .portfolio-container {
