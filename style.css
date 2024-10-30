@@ -87,6 +87,7 @@ header {
     font-weight: bold;
     text-align: center;
     padding-top: 75px;
+    text-wrap: wrap;
 }
 
 .portfolio-technologies {
