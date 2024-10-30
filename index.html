@@ -10,10 +10,10 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body class="inter" style="background: black">
-    <header>
+    <header id="header">
       <div class="nav-bar">
         <div class="nav-icon">
           <img
@@ -22,7 +22,7 @@
             style="width: 150px; height: 150px"
           />
         </div>
-        <div class="nav-option">
+        <!--<div class="nav-option">
           <ul class="nav-option">
             <li style="list-style: none">
               <a
@@ -89,6 +89,70 @@
                 style="width: 15px; height: 15px"
             /></a>
           </button>
+        </div>-->
+        <div class="nav-option" style="background: black;">
+          <nav class="navbar navbar-expand-lg" style="background-color: black;">
+            <div class="container-fluid" style="background: black;">
+              <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation" style="background:white;"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav" style="background: black;">
+                <ul class="navbar-nav d-flex" style="gap: 50px;background: black;">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#header" style="color: white;font-weight: bold;font-size: 2rem;"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#portfolio" style="color: white;font-weight: bold;font-size: 2rem;">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#skills" style="color: white;font-weight: bold;font-size: 2rem;">Skills</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact" style="color: white;font-weight: bold;font-size: 2rem;">About</a>
+                  </li>
+                  <button
+                    style="
+                      background: #0dcaf0;
+                      border: none;
+                      padding: 10px;
+                      border-radius: 4px;
+                    "
+                  >
+                    <a
+                      href="./icons/Resume.pdf"
+                      target="_blank"
+                      style="
+                        text-decoration: none;
+                        color: aliceblue;
+                        font-size: 1.5rem;
+                      "
+                      >Resume</a
+                    >
+                    <a
+                      href="./icons/Resume.pdf"
+                      target="_blank"
+                      style="text-decoration: none"
+                      ><img
+                        src="./icons/download-solid.svg"
+                        alt=""
+                        style="width: 15px; height: 15px"
+                    /></a>
+                  </button>
+                </ul>
+              </div>
+            </div>
+          </nav>
         </div>
       </div>
       <div class="banner">
@@ -132,7 +196,8 @@
                 "
               >
                 <a
-                  href="./icons/Resume.pdf" target="_blank"
+                  href="./icons/Resume.pdf"
+                  target="_blank"
                   style="
                     text-decoration: none;
                     color: aliceblue;
@@ -140,7 +205,10 @@
                   "
                   >Resume</a
                 >
-                <a href="./icons/Resume.pdf" style="text-decoration: none" target="_blank"
+                <a
+                  href="./icons/Resume.pdf"
+                  style="text-decoration: none"
+                  target="_blank"
                   ><img
                     src="./icons/download-solid.svg"
                     alt=""
@@ -354,7 +422,7 @@
           </div>
         </div>
       </section>
-      <section class="contact">
+      <section class="contact" id="contact">
         <h1
           style="text-align: center; padding-top: 250px; padding-bottom: 25px"
         >
